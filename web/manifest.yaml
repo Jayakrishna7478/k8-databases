@@ -204,7 +204,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "roboshop.kubernetes.online"
+  - host: "roboshop.kubernete.online"
     http:
       paths:
       - pathType: Prefix
