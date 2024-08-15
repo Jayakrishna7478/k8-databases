@@ -27,11 +27,11 @@ spec:
         imagePullPolicy: Always
         resources:
           requests:
-            cpu: "300m"
-            memory: "512Mi"
+            cpu: "450m"
+            memory: "800Mi"
           limits:
-            cpu: "300m"
-            memory: "512Mi"
+            cpu: "500m"
+            memory: "900Mi"
         envFrom:
         - configMapRef:
             name: shipping
